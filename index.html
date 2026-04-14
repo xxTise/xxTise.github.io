@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tise Ogundeji | Portfolio</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #ffffff;
+        color: #111111;
+        line-height: 1.6;
+    }
+
+    header {
+        background: #f4f4f4;
+        padding: 60px 20px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    header p {
+        color: #555;
+        max-width: 700px;
+        margin: 0 auto 20px;
+    }
+
+    nav a {
+        color: #111;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 0.95rem;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+
+    section {
+        margin-bottom: 60px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #111;
+        display: inline-block;
+    }
+
+    .card {
+        background: #fafafa;
+        border: 1px solid #e0e0e0;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .card h3 {
+        margin-bottom: 5px;
+        font-size: 1.1rem;
+    }
+
+    .meta {
+        color: #666;
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 30px 20px;
+        border-top: 1px solid #ddd;
+        color: #666;
+        font-size: 0.9rem;
+    }
+
+    a {
+        color: #111;
+    }
+
+    @media (max-width: 768px) {
+        header h1 {
+            font-size: 2rem;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Tise Ogundeji</h1>
+    <p>
+        Cloud Engineer, Automation Builder, and Tech Entrepreneur focused on scalable cloud systems, serverless architecture, and real-world business solutions.
+    </p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="about">
+    <h2>About</h2>
+    <p>
+        I build cloud-based solutions that solve real problems. My background includes AWS infrastructure, automation systems, APIs, DevOps workflows, and AI-powered tools. I enjoy turning ideas into products that scale.
+    </p>
+</section>
+
+<section id="experience">
+    <h2>Experience</h2>
+
+    <article class="card">
+        <h3>Cloud Consultant & AWS Educator</h3>
+        <p class="meta">OG Solutions | Remote | Jan 2025 – Present</p>
+        <ul>
+            <li>Designed and deployed AWS-hosted websites using S3, CloudFront, and Route53.</li>
+            <li>Improved uptime and accessibility for 1,000+ monthly visitors.</li>
+            <li>Built a live demo site for a Nigerian K-12 school.</li>
+            <li>Created AWS Cloud Fundamentals handbook used by 500+ students.</li>
+            <li>Helped organizations adopt AWS for digital operations.</li>
+        </ul>
+    </article>
+
+    <article class="card">
+        <h3>Automation Systems Engineer</h3>
+        <p class="meta">Churner Labs | Chicago, IL | Dec 2025 – Present</p>
+        <ul>
+            <li>Built multi-API automation pipelines using n8n and Python.</li>
+            <li>Created LLM-powered entity extraction workflows.</li>
+            <li>Integrated Apollo, CRM systems, and enrichment APIs.</li>
+            <li>Developed lead qualification systems using funding/news signals.</li>
+            <li>Engineered fail-safe outreach workflows for reliability.</li>
+        </ul>
+    </article>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <article class="card">
+        <h3>MatchDayAI</h3>
+        <p class="meta">AI-Driven Soccer Match Companion App</p>
+        <ul>
+            <li>Built a serverless app using AWS Lambda and Amazon Bedrock.</li>
+            <li>Delivered real-time summaries, commentary, and highlights.</li>
+            <li>Used API Gateway and DynamoDB for scalable performance.</li>
+            <li>Built frontend experience with React.</li>
+        </ul>
+    </article>
+
+    <article class="card">
+        <h3>Serverless URL Shortener</h3>
+        <p class="meta">AWS + Terraform</p>
+        <ul>
+            <li>Created production-ready URL shortener with Lambda and DynamoDB.</li>
+            <li>Automated infrastructure using Terraform.</li>
+            <li>Used CloudWatch for monitoring and debugging.</li>
+        </ul>
+    </article>
+
+    <article class="card">
+        <h3>AI Funding Intelligence Pipeline</h3>
+        <p class="meta">Automation + AI Workflow</p>
+        <ul>
+            <li>Processed funding news to detect startup investment signals.</li>
+            <li>Converted unstructured articles into structured intelligence.</li>
+            <li>Integrated enrichment APIs with fallback logic.</li>
+        </ul>
+    </article>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+        <div class="card">
+            <h3>Cloud</h3>
+            <p>AWS, Azure, Google Cloud</p>
+        </div>
+
+        <div class="card">
+            <h3>AWS Services</h3>
+            <p>Lambda, EC2, DynamoDB, S3, IAM, VPC, CloudWatch, Bedrock</p>
+        </div>
+
+        <div class="card">
+            <h3>Languages</h3>
+            <p>Python, Bash, SQL, JavaScript</p>
+        </div>
+
+        <div class="card">
+            <h3>DevOps</h3>
+            <p>Terraform, Docker, Kubernetes, CI/CD, Jenkins, GitHub Actions</p>
+        </div>
+
+        <div class="card">
+            <h3>Certifications</h3>
+            <p>AWS Cloud Practitioner<br>AWS Solutions Architect Associate</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tiseogundeji3@gmail.com">tiseogundeji3@gmail.com</a></p>
+    <p>Phone: 630-740-9153</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/tise" target="_blank">linkedin.com/in/tise</a></p>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Tise Ogundeji. Built with HTML & CSS.</p>
+</footer>
+
+</body>
+</html>
